@@ -32,7 +32,7 @@ class ConfirmationScreen extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
-                backgroundColor: Colors.lightBlue,
+                backgroundColor: Colors.lightBlue[300],
               ),
             ),
           ],

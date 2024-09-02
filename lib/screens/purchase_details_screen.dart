@@ -11,7 +11,7 @@ class PurchaseDetailsScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Detalhes da Compra'),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Colors.lightBlue[300],
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -51,7 +51,7 @@ class PurchaseDetailsScreen extends StatelessWidget {
                     Navigator.pop(context);
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.grey,
+                    backgroundColor: Colors.blueGrey[100],
                     padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                   ),
                   child: Text('Voltar'),
@@ -61,7 +61,7 @@ class PurchaseDetailsScreen extends StatelessWidget {
                     Navigator.pushNamed(context, '/confirmation');
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blueAccent,
+                    backgroundColor: Colors.lightBlue[300],
                     padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                   ),
                   child: Text('Enviar'),

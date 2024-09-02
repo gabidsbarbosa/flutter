@@ -7,7 +7,7 @@ class ProductListScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Lista de Produtos'),
-        backgroundColor: Colors.blueAccent,
+        backgroundColor: Colors.lightBlue[300],
       ),
       body: Padding(
         padding: const EdgeInsets.all(10.0),
@@ -26,9 +26,9 @@ class ProductListScreen extends StatelessWidget {
     return Card(
       margin: EdgeInsets.symmetric(vertical: 8),
       child: ListTile(
-        leading: Icon(Icons.shopping_bag, color: Colors.blueAccent),
+        leading: Icon(Icons.shopping_bag, color: Colors.lightBlue[300]),
         title: Text(productName, style: TextStyle(fontSize: 18)),
-        trailing: Icon(Icons.arrow_forward_ios, color: Colors.grey),
+        trailing: Icon(Icons.arrow_forward_ios, color: Colors.blueGrey[100]),
         onTap: () {
           Navigator.push(
             context,

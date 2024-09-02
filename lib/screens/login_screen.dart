@@ -14,8 +14,8 @@ class LoginScreen extends StatelessWidget {
               margin: EdgeInsets.only(bottom: 30),
               child: CircleAvatar(
                 radius: 50,
-                backgroundColor: Colors.grey[300], 
-                child: Icon(Icons.store, size: 50, color: Colors.grey[700]),
+                backgroundColor: Colors.blueGrey[100], 
+                child: Icon(Icons.store, size: 50, color: Colors.blueGrey[100]),
               ),
             ),
             TextField(
